@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol Brasileiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Futebol Brasileiro</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showPage('home')">Início</a></li>
+                <li><a href="#historia" onclick="showPage('historia')">História</a></li>
+                <li><a href="#curiosidades" onclick="showPage('curiosidades')">Curiosidades</a></li>
+                <li><a href="#times" onclick="showPage('times')">Times</a></li>
+                <li><a href="#jogadores" onclick="showPage('jogadores')">Jogadores</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="page">
+            <h2>Bem-vindo ao site sobre o Futebol Brasileiro!</h2>
+            <p>Descubra a história, curiosidades, principais times e jogadores que marcaram o futebol do Brasil.</p>
+        </section>
+        <section id="historia" class="page" style="display:none">
+            <h2>História do Futebol Brasileiro</h2>
+            <p>O futebol chegou ao Brasil no final do século XIX e rapidamente se tornou o esporte mais popular do país. O Brasil é o maior campeão mundial, com cinco títulos da Copa do Mundo FIFA (1958, 1962, 1970, 1994 e 2002). O futebol brasileiro é conhecido pelo seu estilo alegre, técnico e criativo, revelando grandes craques e times lendários. Os clubes brasileiros também conquistaram diversos títulos continentais e mundiais, tornando o país uma referência no esporte.</p>
+        </section>
+        <section id="curiosidades" class="page" style="display:none">
+            <h2>Curiosidades</h2>
+            <ul>
+                <li>O Brasil é o único país a participar de todas as Copas do Mundo.</li>
+                <li>Pelé é o maior artilheiro da Seleção Brasileira.</li>
+                <li>O Maracanã já recebeu mais de 200 mil pessoas em uma final de Copa do Mundo.</li>
+            </ul>
+        </section>
+        <section id="times" class="page" style="display:none">
+            <h2>Principais Times</h2>
+            <ul>
+                <li><b>Flamengo</b> - 8x Campeão Brasileiro, 3x Libertadores, 1x Mundial de Clubes</li>
+                <li><b>Corinthians</b> - 7x Campeão Brasileiro, 1x Libertadores, 2x Mundial de Clubes</li>
+                <li><b>São Paulo</b> - 6x Campeão Brasileiro, 3x Libertadores, 3x Mundial de Clubes</li>
+                <li><b>Palmeiras</b> - 12x Campeão Brasileiro (maior campeão nacional), 2x Libertadores</li>
+                <li><b>Santos</b> - 8x Campeão Brasileiro, 3x Libertadores, time de Pelé</li>
+                <li><b>Grêmio</b> - 2x Campeão Brasileiro, 3x Libertadores, 1x Mundial de Clubes</li>
+                <li><b>Internacional</b> - 3x Campeão Brasileiro, 2x Libertadores, 1x Mundial de Clubes</li>
+                <li><b>Vasco da Gama</b> - 4x Campeão Brasileiro, 1x Libertadores</li>
+            </ul>
+        </section>
+        <section id="jogadores" class="page" style="display:none">
+            <h2>Grandes Jogadores</h2>
+            <ul>
+                <li><b>Pelé</b> - 3x Campeão do Mundo, maior artilheiro da Seleção Brasileira, ídolo do Santos</li>
+                <li><b>Garrincha</b> - 2x Campeão do Mundo, considerado um dos maiores dribladores da história</li>
+                <li><b>Zico</b> - Ídolo do Flamengo, maior artilheiro do Maracanã, referência técnica dos anos 80</li>
+                <li><b>Romário</b> - Campeão do Mundo em 1994, mais de 1.000 gols na carreira</li>
+                <li><b>Ronaldo Fenômeno</b> - 2x Campeão do Mundo, 2x Bola de Ouro, artilheiro de Copas</li>
+                <li><b>Ronaldinho Gaúcho</b> - Campeão do Mundo, 2x Melhor do Mundo, ídolo do Barcelona</li>
+                <li><b>Neymar</b> - Um dos maiores artilheiros da Seleção, destaque no Santos, Barcelona e PSG</li>
+                <li><b>Sócrates</b> - Líder da Democracia Corinthiana, ídolo do Corinthians e da Seleção</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+    <p>&copy; 2025 Futebol Brasileiro. Todos os direitos reservados.<br>Site criado por Pedro de Jesus Santana.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
