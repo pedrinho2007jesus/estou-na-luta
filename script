@@ -1,0 +1,14 @@
+function showPage(pageId) {
+    document.querySelectorAll('.page').forEach(function(page) {
+        page.style.display = 'none';
+    });
+    var page = document.getElementById(pageId);
+    if (page) {
+        page.style.display = 'block';
+    }
+}
+
+// Exibe a página inicial ao carregar
+window.onload = function() {
+    showPage('home');
+};
